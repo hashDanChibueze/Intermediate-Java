@@ -70,6 +70,7 @@ public class SudokuBoard {
         if (noNumbersLeft()){
             return true; //if no numbers are left, it is "solved" as much as possible
         }
+	    //a comment should be here
         else{
             for (int row = 0; row < board.length; row++){
                 for (int col = 0; col < board[row].length; col++){ //iterates until it finds an empty cell
